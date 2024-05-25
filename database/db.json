@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": "aff2c8c2687d83d63f19",
+      "email": "nasimreza1717@gmail.com",
+      "firstName": "Md Nasim",
+      "lastName": "Reza",
+      "avatar": "avatar-1716672556107-795794362.jpg",
+      "bio": "Hi,I'm web developer",
+      "password": "$2b$08$D.V0QtkiQTcPIHiwWtB4NeC2velV8AW.W4QsxHjHYIVY.EF9fHTES",
+      "favourites": []
+    }
+  ],
+  "blogs": [
+    {
+      "id": "186ca7e0d704a62d9fe8",
+      "title": "Graph Theroy",
+      "content": "Someone needed a way of keeping track of the order of things, so they played around with and created different data structures until they found the one that worked the best for the specific problem that they were trying to solve. Someone else needed a good way of storing data, so they played around with different number systems until they found one that worked best for the kind of information that they wanted to contain. People needed a good way of labeling and processing tasks, so they found a way to build upon the tools they had and created a way to juggle all the things that one single system needed to do, at any given time.",
+      "thumbnail": "thumbnail-1716671695439-751634854.png",
+      "author": {
+        "id": "aff2c8c2687d83d63f19",
+        "firstName": "Md Nasim",
+        "lastName": "Reza",
+        "avatar": null
+      },
+      "tags": "graph,dfs,bfs",
+      "likes": [
+        {
+          "id": "aff2c8c2687d83d63f19"
+        }
+      ],
+      "comments": [
+        {
+          "id": "21dcd4859f14d9a5008d",
+          "content": "Onek sundor",
+          "author": {
+            "id": "aff2c8c2687d83d63f19",
+            "firstName": "Md Nasim",
+            "lastName": "Reza",
+            "avatar": null
+          }
+        }
+      ],
+      "createdAt": "2024-05-25T21:14:55.445Z"
+    },
+    {
+      "id": "2abdeca814ef21429bd3",
+      "title": "iot simplified",
+      "content": "IoT tutorial provides basic and advanced concepts of IoT. Our Internet of Things tutorial is designed for beginners and professionals.\r\n\r\nIoT stands for Internet of Things, which means accessing and controlling daily usable equipments and devices using Internet.\r\n\r\nOur IoT tutorial includes all topics of IoT such as introduction, features, advantage and disadvantage, ecosystem, decision framework, architecture and domains, biometric, security camera and door unlock system, devices, etc.",
+      "thumbnail": "thumbnail-1716671936061-655751771.jpg",
+      "author": {
+        "id": "aff2c8c2687d83d63f19",
+        "firstName": "Md Nasim",
+        "lastName": "Reza",
+        "avatar": null
+      },
+      "tags": "iot,big data,security",
+      "likes": [
+        {
+          "id": "aff2c8c2687d83d63f19"
+        }
+      ],
+      "comments": [],
+      "createdAt": "2024-05-25T21:18:56.072Z"
+    },
+    {
+      "id": "e690825a76e7fdc16684",
+      "title": "History of nodejs",
+      "content": "The history of Node.js is fascinating! It all began in 2009, when Ryan Dahl created the first version of Node.js. He wanted to create a fast and lightweight runtime environment for JavaScript, and he chose to use the Google Chrome V8 JavaScript engine as the foundation for Node.js. The first release of Node.js was met with great enthusiasm by developers, and it quickly gained popularity as a platform for developing server-side applications.",
+      "thumbnail": "thumbnail-1716672010699-459030660.png",
+      "author": {
+        "id": "aff2c8c2687d83d63f19",
+        "firstName": "Md Nasim",
+        "lastName": "Reza",
+        "avatar": null
+      },
+      "tags": "nodejs,javascript",
+      "likes": [
+        {
+          "id": "aff2c8c2687d83d63f19"
+        }
+      ],
+      "comments": [],
+      "createdAt": "2024-05-25T21:20:10.709Z"
+    },
+    {
+      "id": "f8cc4891e8bc00988b8d",
+      "title": "Node js developer",
+      "content": "Node.js is a powerful JavaScript runtime environment, built on Google Chrome's V8 JavaScript Engine. Node.js is open-source and cross platform, widely used by thousands of developers around the world to develop I/O intensive web applications like video streaming sites, single-page applications, and other web applications.\r\n\r\nContrary to a perception, Node.js is not a programming language like Python, Java or C/C++. Node.js is a runtime, similar to Java virtual machine, that converts JavaScript code into machine code.\r\n\r\nWith Node.js, it is possible to use JavaScript as a backend. With JavaScript already being a popular choice for frontend development, application development around MERN (MongoDB, Express, React and Node.js.) and MEAN (MongoDB, Express, Angular and Node.js) stacks is being increasingly employed by developers.",
+      "thumbnail": "thumbnail-1716671818879-183210691.png",
+      "author": {
+        "id": "aff2c8c2687d83d63f19",
+        "firstName": "Md Nasim",
+        "lastName": "Reza",
+        "avatar": null
+      },
+      "tags": "nodejs,express js,javascript",
+      "likes": [
+        {
+          "id": "aff2c8c2687d83d63f19"
+        }
+      ],
+      "comments": [],
+      "createdAt": "2024-05-25T21:16:58.889Z"
+    },
+    {
+      "id": "805fc0484da21226092a",
+      "title": "Javascript array filter",
+      "content": "Before the introduction of ES6 in 2015, many developers relied on the for loop method to handle almost all array manipulation. But the code can become quite long and not easy to understand, which led to the release of many individual JavaScript methods like the filter() method (which you will learn about soon).",
+      "thumbnail": "thumbnail-1716672077755-153081207.png",
+      "author": {
+        "id": "aff2c8c2687d83d63f19",
+        "firstName": "Md Nasim",
+        "lastName": "Reza",
+        "avatar": null
+      },
+      "tags": "array,filter,javascript",
+      "likes": [
+        {
+          "id": "aff2c8c2687d83d63f19"
+        }
+      ],
+      "comments": [],
+      "createdAt": "2024-05-25T21:21:17.769Z"
+    }
+  ]
+}
