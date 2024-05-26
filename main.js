@@ -1,6 +1,6 @@
 const customRouter = require("./router");
 const express = require("express");
-const jsonServer = require("json-server");
+const jsonServer = require("./lib/jsonServer");
 var cors = require("cors");
 
 require("dotenv").config();
@@ -15,15 +15,14 @@ app.use(express.static(__dirname + "/public"));
 app.use("/uploads", express.static("uploads"));
 
 // /!\ Bind the router db to the app
-app.db = jsonServer.router("db.json").db;
+app.db = jsonServer.db;
 
 app.use(express.json());
 
 // CustomRoute Middleware to Handle Extra Routes
 app.use("/", customRouter);
 
-app.use(jsonServer.defaults());
-app.use(jsonServer.router("db.json"));
+app.use(jsonServer);
 
 // Error handle Middleware
 app.use((err, req, res, _next) => {
