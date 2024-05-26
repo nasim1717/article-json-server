@@ -25,8 +25,8 @@ app.use("/", customRouter);
 app.use(jsonServer);
 
 // Error handle Middleware
-// eslint-disable-next-line no-unused-vars
 app.use((err, req, res, _next) => {
+  console.error(err); // Log the error details
   res.status(500).json({
     error: err.message,
   });
@@ -40,8 +40,8 @@ app.use((req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Listening on port 3000");
-  console.log("http://localhost:3000");
+  console.log(`Listening on port ${port}`);
+  console.log(`http://localhost:${port}`);
 });
 
 module.exports = app;
