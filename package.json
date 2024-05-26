@@ -1,8 +1,8 @@
 {
-  "name": "backend-server",
+  "name": "article-json-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "engines": {
     "node": ">=16.0.0"
   },
